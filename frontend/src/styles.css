@@ -1,0 +1,22 @@
+/* frontend/src/styles.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Aplicamos los nuevos estilos base "Retro"
+*/
+@layer base {
+  body {
+    @apply 
+      bg-background     /* Fondo casi negro (#1A1A1D) */
+      text-text-dark    /* Texto casi blanco (#F5F5F5) */
+      font-sans;        /* Fuente Roboto Mono por defecto */
+  }
+
+  /* (Opcional) Hacemos que todos los títulos usen la fuente 'display' */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}

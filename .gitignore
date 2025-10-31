@@ -1,0 +1,27 @@
+# Dependencias
+
+/node_modules
+
+
+
+# Archivos de entorno (¡Contiene tus llaves secretas!)
+
+.env
+
+.env.local
+
+
+
+# Errores y logs
+
+npm-debug.log
+
+yarn-error.log
+
+
+
+# Archivos de build
+
+/dist
+
+/build
